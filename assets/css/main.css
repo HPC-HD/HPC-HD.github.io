@@ -49,7 +49,7 @@
 	}
 
 
-	img {
+	smallimg {
 	      width: 60px; /* Set a fixed width for the images */
 	      height: 60px; /* Set a fixed height for the images */
 	      object-fit: cover; /* Maintain aspect ratio and cover the container */
