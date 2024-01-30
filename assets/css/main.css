@@ -47,29 +47,6 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
-
-	smallimg {
-	      width: 60px; /* Set a fixed width for the images */
-	      height: 60px; /* Set a fixed height for the images */
-	      object-fit: cover; /* Maintain aspect ratio and cover the container */
-	      border-radius: 50%; /* Make the images circular */
-	      margin-right: 10px; /* Add some spacing between the image and text */
-	    }
-
-	.container {
-      		display: flex;
-      		justify-content: space-between;
-    }
-	
-	.column {
-	      flex: 1;
-	      background-color: #fff;
-	      border-radius: 10px;
-	      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	      padding: 20px;
-	      margin: 10px;
-	    }
 	
 
 /* Box Model */
