@@ -2,57 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>People Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .column {
-      flex: 1;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin: 10px;
-    }
-
-    h2 {
-      color: #333;
-    }
-
-    p {
-      color: #666;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-
-    img {
-      width: 60px; /* Set a fixed width for the images */
-      height: 60px; /* Set a fixed height for the images */
-      object-fit: cover; /* Maintain aspect ratio and cover the container */
-      border-radius: 50%; /* Make the images circular */
-      margin-right: 10px; /* Add some spacing between the image and text */
-    }
-  </style>
+  <!-- Head content from your head.html should be placed here -->
+  {% include head.html %}
 </head>
 
 <body>
-    <!-- Include Sidebar -->
-  <div id="sidebar">
-    <!-- Sidebar content -->
-  </div>
+  <!-- Include the sidebar from your sidebar.html -->
+  {% include sidebar.html %}
+  
+  <!-- Header content, if you have a header.html -->
+  {% include header.html %}
+
   <h1>People</h1>
 
   <div class="container">
