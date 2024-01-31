@@ -1,10 +1,9 @@
 ---
 layout: page
-title: people in HPC-HD
+title: People in HPC-HD
 ---
 
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
