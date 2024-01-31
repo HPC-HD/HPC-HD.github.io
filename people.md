@@ -54,11 +54,7 @@ title: People in HPC-HD
 </head>
 
 <body>
-    <!-- Include Sidebar -->
-  <!-- <div id="sidebar"> -->
-    <!-- Sidebar content -->
-  <!-- </div> -->
-  <!-- <h1>People</h1> -->
+
 
   <div class="container">
     <!-- Helsinki University -->
