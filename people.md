@@ -35,7 +35,7 @@ title: People in HPC-HD
       color: #333;
     }
 
-    p {
+    .container_people p {
       color: #666;
       cursor: pointer;
       display: flex;
