@@ -18,9 +18,10 @@ title: People in HPC-HD
       padding: 20px;
     }
 
-    .container {
+    .container_people {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     .column {
@@ -46,7 +47,7 @@ title: People in HPC-HD
     img {
       width: 60px; /* Set a fixed width for the images */
       height: 60px; /* Set a fixed height for the images */
-      object-fit: cover; /* Maintain aspect ratio and cover the container */
+      object-fit: cover; /* Maintain aspect ratio and cover the container_people */
       border-radius: 50%; /* Make the images circular */
       margin-right: 10px; /* Add some spacing between the image and text */
     }
@@ -56,7 +57,7 @@ title: People in HPC-HD
 <body>
 
 
-  <div class="container">
+  <div class="container_people">
     <!-- Helsinki University -->
     <div class="column">
       <h2>Helsinki University</h2>
