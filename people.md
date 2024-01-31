@@ -14,7 +14,6 @@ title: People in HPC-HD
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
     }
 
     .container_people {
