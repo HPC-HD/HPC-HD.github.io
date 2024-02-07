@@ -13,7 +13,6 @@ title: HPC-HD use of CSC services in 2023
       display: flex;
       justify-content: center; /* Center the image horizontally */
       align-items: center; /* Center the image vertically */
-      height: 100vh; /* Make the container full height of the viewport */
     }
 
     .image-container img {
