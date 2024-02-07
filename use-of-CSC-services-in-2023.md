@@ -3,7 +3,6 @@ layout: page
 title: HPC-HD use of CSC services in 2023
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
