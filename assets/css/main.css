@@ -66,7 +66,8 @@
 	  margin: 0 auto; /* Centers the container */
 	  padding: 0 20px; /* Padding on the sides */
 	}
-		
+
+
 	.funder-logos, .university-logos {
 	  display: flex;
 	  justify-content: center; /* Center logos horizontally */
@@ -76,8 +77,10 @@
 	}
 	
 	.funder-logos img, .university-logos img {
-	  max-width: 100px; /* Maximum logo width */
-	  height: auto; /* Maintain aspect ratio */
+	  height: 80px; /* This sets a uniform height for all logos */
+	  width: auto; /* This keeps the width proportional to the height */
+	  object-fit: contain; /* This prevents the images from being stretched */
+	  margin: 0 10px; /* This adds some horizontal space between the logos */
 	}
 	
 	.contact-information {
