@@ -49,6 +49,42 @@
 	}
 	
 
+
+	
+	/* Footer styling */
+	.site-footer {
+	  background: #f2f2f2; /* Light grey background */
+	  padding: 20px 0; /* Padding around the footer content */
+	  font-size: 0.8em; /* Smaller text size for footer */
+	}
+	
+	.funder-logos, .university-logos {
+	  display: flex;
+	  justify-content: center; /* Center logos horizontally */
+	  align-items: center; /* Align logos vertically */
+	  gap: 20px; /* Space between logos */
+	  margin-bottom: 20px; /* Space below the logo sections */
+	}
+	
+	.funder-logos img, .university-logos img {
+	  max-width: 100px; /* Maximum logo width */
+	  height: auto; /* Maintain aspect ratio */
+	}
+	
+	.contact-information {
+	  text-align: center; /* Center the contact information text */
+	  margin-bottom: 20px; /* Space below the contact information */
+	}
+	
+	.contact-information a {
+	  color: #333; /* Dark text color for contrast */
+	  text-decoration: none; /* No underline on email link */
+	}
+	
+	.contact-information a:hover {
+	  text-decoration: underline; /* Underline on hover for the link */
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
