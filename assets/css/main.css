@@ -52,6 +52,7 @@
 
 	
 	/* Footer styling */
+	
 	.site-footer {
 	  background: #f2f2f2; /* Light grey background */
 	  padding: 20px 0; /* Padding around the footer content */
@@ -59,43 +60,48 @@
 	
 	.footer-container {
 	  display: flex;
-	  justify-content: space-between; /* This will spread out the child elements across the x-axis */
+	  justify-content: space-between; /* Aligns children with space between */
 	  align-items: center; /* Align items vertically */
-	  flex-wrap: wrap; /* Ensures that the items wrap on smaller screens */
-	  max-width: 1200px; /* Maximum width of the footer container */
-	  margin: 0 auto; /* Centers the container */
-	  padding: 0 20px; /* Padding on the sides */
+	  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
 	}
-
-
-	.funder-logos, .university-logos {
+	
+	.university-logos,
+	.funder-logos,
+	.contact-information {
+	  flex-basis: 30%; /* Gives each section a base width */
 	  display: flex;
-	  justify-content: center; /* Center logos horizontally */
+	  justify-content: center; /* Center logos within their section */
 	  align-items: center; /* Align logos vertically */
-	  gap: 20px; /* Space between logos */
 	  margin-bottom: 20px; /* Space below the logo sections */
 	}
 	
-	.funder-logos img, .university-logos img {
+	.university-logos {
+	  justify-content: flex-start; /* Aligns university logos to the left */
+	}
+	
+	.funder-logos {
+	  justify-content: flex-end; /* Aligns funder logos to the right */
+	}
+	
+	/* Adjust the image heights as necessary */
+	.university-logos img,
+	.funder-logos img {
 	  height: 80px; /* This sets a uniform height for all logos */
 	  width: auto; /* This keeps the width proportional to the height */
-	  object-fit: contain; /* This prevents the images from being stretched */
-	  margin: 0 10px; /* This adds some horizontal space between the logos */
+	  object-fit: contain; /* Prevents images from being stretched */
 	}
 	
 	.contact-information {
-	  text-align: center; /* Center the contact information text */
+	  text-align: center; /* Centers the contact information */
 	  margin-bottom: 20px; /* Space below the contact information */
 	}
 	
 	.contact-information a {
 	  color: #333; /* Dark text color for contrast */
-	  text-decoration: none; /* No underline on email link */
+	  text-decoration: underline; /* Underlines the email link */
+	  cursor: pointer; /* Changes cursor to the pointer hand */
 	}
 	
-	.contact-information a:hover {
-	  text-decoration: underline; /* Underline on hover for the link */
-	}
 
 /* Box Model */
 
