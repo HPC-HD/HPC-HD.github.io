@@ -72,6 +72,8 @@ title: People in HPC-HD
         <img src="assets/images/yann_ryan.png" alt="Yann Ryan Image"> Yann Ryan</p>
       <p onclick="window.location.href='https://researchportal.helsinki.fi/en/persons/ville-vaara';"> 
         <img src="assets/images/vaara.jpg" alt="Ville Vaara Image"> Ville Vaara</p>
+       <p onclick="window.location.href='https://www.linkedin.com/in/ruilin-wang-2b9aa2226/';"> 
+        <img src="assets/images/wang.jpeg" alt="Ruilin Wang Image"> Ruilin Wang</p>
       <p onclick="window.location.href='https://researchportal.helsinki.fi/en/persons/maciej-michal-janicki';"> 
         <img src="assets/images/janicki.jpg" alt="Maciej Janicki Image"> Maciej Janicki</p>
       <p onclick="window.location.href='https://researchportal.helsinki.fi/en/persons/michael-mathioudakis';"> 
@@ -103,8 +105,6 @@ title: People in HPC-HD
       <p onclick="window.location.href='https://www.aalto.fi/en/people/rohit-babbar';">
         <img src="assets/images/placeholder.jpeg" alt="Rohit Babbar Image"> Rohit Babbar
       </p>
-      <p onclick="window.location.href='https://www.linkedin.com/in/ruilin-wang-2b9aa2226/';"> 
-        <img src="assets/images/wang.jpeg" alt="Ruilin Wang Image"> Ruilin Wang</p>
     </div>
   </div>
 </body>
